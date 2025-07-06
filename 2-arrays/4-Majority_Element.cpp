@@ -66,6 +66,9 @@ int majorityElement_UsingSorting(vector<int>& nums) {
     }
 
 int main(){
-    vector<int> vec = {2, 11, 15, 7};
+    vector<int> vec = {1, 1, 2, 4, 4, 4, 4, 4 };
+    int ans = majorityElement_UsingSorting(vec);
+    cout<<"The answer of the problem is: " << ans;
+    return 0;
     
 }
